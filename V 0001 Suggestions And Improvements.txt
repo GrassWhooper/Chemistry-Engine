@@ -1,0 +1,13 @@
+V0.001:
+
+GrassWhooper:
+---------------My Thoughts On This Attempt --------------
+i think, a big hurdle on my way, is actually finding a way, to define, the table of interactions, (since, defining the table at the constructor, and having it written down, for each and every possible case, seems repetitive, and it just feels like there is a better approach that just doesn't cross my mind sadly)
+
+an idea of an improvement is to change, the interactables to be interfaces, and make them more abstract, so that, instead of them being an Arrow/Sword, they'll be IWood/IMetal. 
+not so sure about it. but its worth a thought.
+
+
+Twistedlink07 (gameDevTv Chat channel) :
+Handling the table, you could just use the command pattern and have registration and deregistration methods on your chemistry system main class
+Honestly, the thing I'm interested in is how much computation time it takes to do the two hashes and the function overhead. I'm curious if it needs to be redesigned for performance
